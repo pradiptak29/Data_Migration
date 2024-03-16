@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="a296131c47cd46502b48b7f3846d4325" extends="task" label="Data Migration Home" max_length="40" name="x_933237_data_migr_data_migration_home" type="collection">
+        <element choice="3" label="Pathway" mandatory="true" max_length="40" name="u_pathway" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Work To Personal" sequence="0" value="work_to_personal"/>
+                <element inactive_on_update="false" label="Personal To Work" sequence="1" value="personal_to_work"/>
+            </choice>
+        </element>
+        <element choice="3" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Required" sequence="0" value="required"/>
+                <element inactive_on_update="false" label="Not Required Anymore But Keep It" sequence="1" value="not_required_anymore"/>
+                <element inactive_on_update="false" label="Can Be Deleted" sequence="2" value="can_be_deleted"/>
+            </choice>
+        </element>
+        <element choice="3" label="Type" mandatory="true" max_length="40" name="u_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Work Related" sequence="0" value="work_related"/>
+                <element inactive_on_update="false" label="Referrals" sequence="1" value="referrals"/>
+                <element inactive_on_update="false" label="Study Materials" sequence="2" value="study_materials"/>
+                <element inactive_on_update="false" label="Certifications" sequence="3" value="certifications"/>
+                <element inactive_on_update="false" label="Personal" sequence="4" value="personal"/>
+            </choice>
+        </element>
+    </element>
+</database>
