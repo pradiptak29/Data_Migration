@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="a296131c47cd46502b48b7f3846d4325" extends="task" label="Data Migration Home" max_length="40" name="x_933237_data_migr_data_migration_home" type="collection">
+    <element audit="true" db_object_id="a296131c47cd46502b48b7f3846d4325" extends="task" label="Data Migration Home" max_length="40" name="x_933237_data_migr_data_migration_home" type="collection">
+        <element choice="3" label="Pathway" mandatory="true" max_length="40" name="u_pathway" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Work To Personal" sequence="0" value="work_to_personal"/>
+                <element inactive_on_update="false" label="Personal To Work" sequence="1" value="personal_to_work"/>
+            </choice>
+        </element>
         <element choice="3" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Required" sequence="0" value="required"/>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_933237_data_migr_data_migration_home">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_pathway" table="x_933237_data_migr_data_migration_home">
         <active>true</active>
         <array>false</array>
         <attributes/>
-        <audit>true</audit>
+        <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Pathway</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,14 +21,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>u_pathway</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
-        <mandatory>false</mandatory>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_933237_data_migr_data_migration_home</name>
         <next_element/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-03-16 07:46:33</sys_created_on>
-        <sys_name>x_933237_data_migr_data_migration_home</sys_name>
+        <sys_created_on>2024-03-16 13:43:57</sys_created_on>
+        <sys_name>Pathway</sys_name>
         <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
-        <sys_update_name>sys_dictionary_x_933237_data_migr_data_migration_home_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_933237_data_migr_data_migration_home_u_pathway</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-16 13:51:18</sys_updated_on>
+        <sys_updated_on>2024-03-16 13:43:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
