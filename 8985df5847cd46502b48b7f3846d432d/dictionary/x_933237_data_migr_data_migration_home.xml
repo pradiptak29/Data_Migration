@@ -6,6 +6,7 @@
                 <element inactive_on_update="false" label="Personal To Work" sequence="1" value="personal_to_work"/>
             </choice>
         </element>
+        <element label="Related Data Migration Record (if any)" max_length="32" name="u_related_data_migration_record" reference="x_933237_data_migr_data_migration_home" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element choice="3" label="Status" mandatory="true" max_length="40" name="u_status" type="string">
             <choice>
                 <element inactive_on_update="false" label="Required" sequence="0" value="required"/>
