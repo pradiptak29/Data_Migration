@@ -1,2 +1,2 @@
 # Data_Migration
-This is a data migration application for ServiceNow PDI
+This repository is to maintain the ServiceNow personal application "Data Migration" in my ServiceNow PDI.
