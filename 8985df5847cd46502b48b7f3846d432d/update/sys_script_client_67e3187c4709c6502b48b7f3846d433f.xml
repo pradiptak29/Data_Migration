@@ -12,14 +12,24 @@
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
     if (isLoading || newValue === '') {
+        if (g_form.getValue("u_related_data_migration_record") != "") {
+            g_form.setValue("active", false);
+            g_form.setReadOnly("active", true);
+        } else {
+            g_form.setValue("active", true);
+            g_form.setReadOnly("active", false);
+        }
         return;
     }
 
     //Making the "Active" filed true or false based on the value of "Related Data Migration Record (if any)"
     if (g_form.getValue("u_related_data_migration_record") != "") {
         g_form.setValue("active", false);
+        g_form.setReadOnly("active", true);
+		g_form.save();
     } else {
         g_form.setValue("active", true);
+        g_form.setReadOnly("active", false);
     }
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -28,7 +38,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>67e3187c4709c6502b48b7f3846d433f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Making Old Record Inactive</sys_name>
         <sys_overrides/>
         <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
@@ -36,7 +46,7 @@
         <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
         <sys_update_name>sys_script_client_67e3187c4709c6502b48b7f3846d433f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-03-17 09:00:08</sys_updated_on>
+        <sys_updated_on>2024-03-18 07:05:25</sys_updated_on>
         <table>x_933237_data_migr_data_migration_home</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
