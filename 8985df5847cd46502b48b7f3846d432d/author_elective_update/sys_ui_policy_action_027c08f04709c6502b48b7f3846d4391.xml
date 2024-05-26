@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_related_data_migration_record</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 06:20:23</sys_created_on>
+        <sys_id>027c08f04709c6502b48b7f3846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_related_data_migration_record</sys_name>
+        <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_027c08f04709c6502b48b7f3846d4391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 06:20:23</sys_updated_on>
+        <table>x_933237_data_migr_data_migration_home</table>
+        <ui_policy display_value="Inactive entries should be read-only">627c28e8478586502b48b7f3846d4378</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</application>
+        <file_path/>
+        <instance_id>286add531b1dc11032182f8dee4bcb23</instance_id>
+        <instance_name>dev123848</instance_name>
+        <name>sys_ui_policy_action_027c08f04709c6502b48b7f3846d4391</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_related_data_migration_record</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 06:20:23</sys_created_on>
+        <sys_id>027c08f04709c6502b48b7f3846d4391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_related_data_migration_record</sys_name>
+        <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_027c08f04709c6502b48b7f3846d4391</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 06:20:23</sys_updated_on>
+        <table>x_933237_data_migr_data_migration_home</table>
+        <ui_policy display_value="Inactive entries should be read-only">627c28e8478586502b48b7f3846d4378</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>]]></payload>
+        <payload_hash>-1581548473</payload_hash>
+        <record_name>u_related_data_migration_record</record_name>
+        <reverted_from/>
+        <source>443e6c7047c9c6502b48b7f3846d43cf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 08:47:47</sys_created_on>
+        <sys_id>c13eec7047c9c6502b48b7f3846d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18e4b9877910000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-17 08:47:47</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>8d3eec7037c9c650c1ae8c48661586bf</update_guid>
+        <update_guid_history>8d3eec7037c9c650c1ae8c48661586bf:0,436d6830a3c9c650fc4528cb39dc8e35:-1984459549,623c64bcd489c650aebb81b00bb964c2:0,5f4b2c3cb689c6500beb91097ec061c6:-1984459549,cd88a0787d89c650d9a1a5fcabd2e60d:0,7e682c388589c650a8d5ab1b7180395d:-1984459549,ce7c08f01409c65029b245a6b004d093:2085244271</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-18 06:52:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>853e3aebd0cf485a930b3b03b015d904</sys_id>
+        <sys_metadata>027c08f04709c6502b48b7f3846d4391</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_related_data_migration_record</sys_name>
+        <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
+        <sys_parent display_value="Inactive entries should be read-only">627c28e8478586502b48b7f3846d4378</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
+        <sys_scope_delete display_value="">0adc7738c8e441ed87234d7d146da7f1</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_027c08f04709c6502b48b7f3846d4391</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_027c08f04709c6502b48b7f3846d4391">c13eec7047c9c6502b48b7f3846d43c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-03-18 06:52:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

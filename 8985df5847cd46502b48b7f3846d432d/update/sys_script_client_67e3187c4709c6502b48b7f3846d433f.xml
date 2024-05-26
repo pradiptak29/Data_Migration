@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When a new data migration record is introduced and connected for an existing migration record, the old record becomes inactive.</description>
+        <field>u_related_data_migration_record</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Making Old Record Inactive</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+		//On-load Script
+        if (g_form.getValue("u_related_data_migration_record") != "") {
+            g_form.setValue("active", false);
+            g_form.setReadOnly("active", true);
+        } else {
+            g_form.setValue("active", true);
+            g_form.setReadOnly("active", false);
+        }
+        return;
+    }
+
+	//On-change Script
+    //Making the "Active" filed true or false based on the value of "Related Data Migration Record (if any)"
+    if (g_form.getValue("u_related_data_migration_record") != "") {
+        g_form.setValue("active", false);
+        g_form.setReadOnly("active", true);
+		g_form.save();
+    } else {
+        g_form.setValue("active", true);
+        g_form.setReadOnly("active", false);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-03-17 06:58:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67e3187c4709c6502b48b7f3846d433f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Making Old Record Inactive</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
+        <sys_update_name>sys_script_client_67e3187c4709c6502b48b7f3846d433f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-26 11:17:23</sys_updated_on>
+        <table>x_933237_data_migr_data_migration_home</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
