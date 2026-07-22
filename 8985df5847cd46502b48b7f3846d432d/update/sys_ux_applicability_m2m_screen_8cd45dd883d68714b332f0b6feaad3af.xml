@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Admin">d4e6a3160f223010e28740c1df767e0c</applicability>
+        <order>1</order>
+        <screen display_value="KPI Version 01">e144dd5883d68714b332f0b6feaad3eb</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>asterix</sys_created_by>
+        <sys_created_on>2026-07-21 10:22:36</sys_created_on>
+        <sys_id>8cd45dd883d68714b332f0b6feaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_8cd45dd883d68714b332f0b6feaad3af</sys_update_name>
+        <sys_updated_by>asterix</sys_updated_by>
+        <sys_updated_on>2026-07-21 10:22:36</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

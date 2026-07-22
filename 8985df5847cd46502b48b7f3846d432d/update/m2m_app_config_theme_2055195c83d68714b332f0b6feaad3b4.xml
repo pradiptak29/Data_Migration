@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability/>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>asterix</sys_created_by>
+        <sys_created_on>2026-07-21 10:24:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2055195c83d68714b332f0b6feaad3b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
+        <sys_update_name>m2m_app_config_theme_2055195c83d68714b332f0b6feaad3b4</sys_update_name>
+        <sys_updated_by>asterix</sys_updated_by>
+        <sys_updated_on>2026-07-21 10:24:49</sys_updated_on>
+        <theme/>
+        <ux_app_configuration display_value="Data Migration Workspace">f863dd9483d68714b332f0b6feaad3ec</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Data Migration Workspace">4d6395d483d68714b332f0b6feaad369</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>asterix</sys_created_by>
+        <sys_created_on>2026-07-21 10:16:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>d663d5d483d68714b332f0b6feaad359</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Data Migration" source="x_933237_data_migr">8985df5847cd46502b48b7f3846d432d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Data Migration">8985df5847cd46502b48b7f3846d432d</sys_scope>
+        <sys_update_name>sys_ux_page_property_d663d5d483d68714b332f0b6feaad359</sys_update_name>
+        <sys_updated_by>asterix</sys_updated_by>
+        <sys_updated_on>2026-07-21 10:24:49</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_933237_data_migr.4d6395d483d68714b332f0b6feaad369.root.global.chrome_header</unique_name>
+        <value>{
+    "privatePage": {
+        "userPrefsEnabled": false,
+        "searchEnabled": false,
+        "currentScreenLinkConfiguration": {},
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [],
+            "secondaryItems": []
+        },
+        "notificationsEnabled": false
+    },
+    "publicPage": {
+        "searchEnabled": false,
+        "logoRoute": {},
+        "actionButtons": []
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=d663d5d483d68714b332f0b6feaad359"/>
+</record_update>
